@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "mailjet-cloudflare-worker",
+  "version": "1.0.0",
+  "description": "An implementation of the Mailjet API, using a Cloudflare Worker",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Benjamin DeLong <ben@bozdoz.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.5"
+  }
+}

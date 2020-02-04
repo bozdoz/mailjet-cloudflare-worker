@@ -1,0 +1,7 @@
+name = "mailjet"
+type = "webpack"
+account_id = "e3fb1a36842b2f862077d628546c28b2"
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "webpack.config.js"
