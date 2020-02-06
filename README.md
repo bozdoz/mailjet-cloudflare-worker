@@ -3,7 +3,9 @@
 ### How To
 
 1. install dependencies: `npm i`
-2. define your required variables (somehow): `export MJ_APIKEY_PUBLIC=abcdefghi` (etc)
+2. define your environment variables (somehow):
+   - Using direnv: in a .envrc file: `cp .env-example .envrc`
+   - Just export the variables (see `.env-example`)!
 3. publish/test: `wrangler publish`
 
 ### Using

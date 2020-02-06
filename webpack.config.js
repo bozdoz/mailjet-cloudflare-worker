@@ -6,7 +6,6 @@ module.exports = {
   mode: 'production',
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.MESSAGE': JSON.stringify(process.env.MESSAGE),
       'process.env.MJ_APIKEY_PUBLIC': JSON.stringify(
         process.env.MJ_APIKEY_PUBLIC,
       ),
@@ -15,6 +14,9 @@ module.exports = {
       ),
       'process.env.TO_EMAIL': JSON.stringify(process.env.TO_EMAIL),
       'process.env.FROM_EMAIL': JSON.stringify(process.env.FROM_EMAIL),
+      'process.env.RECAPTCHA_SECRET': JSON.stringify(
+        process.env.RECAPTCHA_SECRET,
+      ),
     }),
   ],
 }
